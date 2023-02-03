@@ -3,11 +3,11 @@
 
 # In this example: A Huggingface BERT model
 
-import whisper
-import torch
+import nemo.collections.asr as nemo_asr
 
 def download_model():
-    model = whisper.load_model("base")
+    
+    model = nemo_asr.models.EncDecRNNTBPEModel.from_pretrained("nvidia/stt_en_conformer_transducer_large")
 
 if __name__ == "__main__":
     download_model()
