@@ -1,4 +1,4 @@
-# 🍌 Banana Serverless Whisper Template
+# 🍌 Banana Serverless Nvidia Conformer Transducer Large Template
 
 This repo gives a basic framework for serving OpenAI's Whisper in production using simple HTTP servers.
 
@@ -19,8 +19,8 @@ If Banana is your favorite GPU hosting provider, read on!
 
 Three steps:
 1. Create your own copy of this template repo. Either:
-- Click "[Fork](https://github.com/sahil280114/serverless-template-whisper/fork)" (creates a public repo)
-- Click "[Use this Template](https://github.com/sahil280114/serverless-template-whisper/generate)" (creates a private or public repo)
+- Click "[Fork](https://github.com/vieenrose/Conformer-Transducer/fork)" (creates a public repo)
+- Click "[Use this Template](https://github.com/vieenrose/Conformer-Transducer/generate)" (creates a private or public repo)
 - Create your own repo and copy the template files into it
 
 2. Login in to the [Banana Dashboard](https://app.banana.dev) and setup your account by saving your payment details and linking your Github.
