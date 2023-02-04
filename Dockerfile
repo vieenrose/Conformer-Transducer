@@ -3,6 +3,10 @@ FROM nvcr.io/nvidia/nemo:22.11
 
 WORKDIR /
 
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
+ADD requirements.txt requirements.txt
+RUN python3 -m pip install -r requirements.txt
+
 # We add the banana boilerplate here
 ADD server.py .
 
